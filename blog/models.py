@@ -59,7 +59,6 @@ class Article(BaseModel):
         cur.execute("SELECT * FROM articles")
 
         records = cur.fetchall()
-
         articles = [cls(**record) for record in records]
         con.close()
 
