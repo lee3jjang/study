@@ -59,9 +59,16 @@ html_theme = 'sphinx_material'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_sidebars = {
+    "**": ["globaltoc.html", "localtoc.html", "searchbox.html", "logo-text.html"]
+}
+
 html_theme_options = {
     "nav_title": 'Sphinx Study',
     "logo_icon": "&#xe80e",
+    'repo_url': 'https://github.com/lee3jjang/study',
+    'repo_name': 'sphinx exercise',
+    'repo_type': 'github',
 }
 
 # sphinx-apidoc -f -o source myapp
