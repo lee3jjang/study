@@ -7,5 +7,6 @@ This is a document for study
    print(sum(4,2))
 
 .. autosummary::
+   ~myapp
    ~myapp.math
    ~myapp.math.sum
